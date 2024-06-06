@@ -6,7 +6,7 @@ const assunto = localStorage.getItem("assunto")
 
 let quiz = {}
 let pontos = 0
-let pergunta = 3
+let pergunta = 8
 
 botaoTema.addEventListener("click", () => {
     trocarTema(body, botaoTema)
